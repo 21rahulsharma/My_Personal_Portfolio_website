@@ -126,8 +126,10 @@ nav ul li a:hover::after
 }
 .leftsection .buttons
 {
+    margin:25px 0px;
     padding: 50px, 0px;
-    display:inline;
+    display:flex;
+    flex-wrap:wrap;
 }
 #element{
     color:lavender;
@@ -135,7 +137,8 @@ nav ul li a:hover::after
 
 .leftsection .btn
 {
-    
+    margin-right: 15px;
+    margin-bottom:10px;
     padding:12px;
     color:white;
     background-color:purple;
@@ -335,6 +338,7 @@ nav ul li a:hover::after
     border-radius: 10px;
     position:relative;
     overflow:hidden;
+    
 }
 .work img{
     width:100%;
@@ -347,10 +351,16 @@ nav ul li a:hover::after
 {
     transform:scale(1.1);
 }
+.layer h1{
+    font-size: 20px;
+}
+.layer p{
+    font-size:15px;
+}
 .layer
 {
-    height:30%;
-    width:100%;
+    height:40%;
+    width:calc(100% - 80px);
     background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
     border-radius:10px;
     position:absolute;
@@ -368,16 +378,16 @@ nav ul li a:hover::after
 }
 
 .layer a{
-    width:170px;
-    height:170px;
-    padding:10px 10px;
+    width:60px;
+    height:60px;
+    padding:8px 8px;
     border-radius:50%;
     display:flex;
     flex-direction:column;
-    margin:20px;
+    margin:15px;
     color:#ff004f;
-    font-size:23px;
-    line-height:60px;
+    font-size:17px;
+    line-height:30px;
     /* border-radius:30%; */
     background: white;
     
@@ -668,6 +678,7 @@ footer
 .buttons
 {
     margin-top:9px;
+    
     padding-top:10px;
 }
 .sub-title
@@ -677,6 +688,7 @@ footer
 .leftsection .btn 
 {
     font-size:7px;
+    margin-bottom:7px;
     padding:2px;
 }
 .Imagesection
@@ -700,7 +712,23 @@ footer
     margin:auto;
     width:80%;
 }
-
+.layer h2
+{
+    font-size:12px;
+}
+.layer p
+{
+    font-size:9px;
+}
+.layer a{
+    width:70px;
+    height:70px;
+    padding:4px 4px;
+    margin:7px;
+    font-size:12px;
+    line-height:25px;
+    
+}
 .tab-links
 {
     margin-right:20px;
