@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Rahul Kumar Sharma">
+    <meta name="keywords" contents="Portfolio website,Rahul Kumar Sharma,Developers Portfolio,About developer">
+    <link rel="shortcut icon" href="favi.icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&family=Playfair+Display:ital@1&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <title>Rahul's Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/040f4d1fd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="main">
+            <div class="left">
+                <a href=""><img src="Rahul_logo.png"></a>
+                <h1>Rahul's Portfolio</h1>
+            </div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#Homeofwebsite">Home</a></li>
+                    <li><a href="#Aboutsection">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projectwork">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" style="color: #dd0000;" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: #ff004f;" onclick="openmenu()"></i>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstsection" id="Homeofwebsite">
+            <div class="leftsection">Hi Everyone, <br>I am <span class="purple">Rahul Kumar Sharma</span>
+                <span id="element"></span>
+                <br>
+                <div class="buttons">
+                    <a href="MyCv/rahulcv1.pdf" download class="btn">Download Resume</a>
+                    <a href="https://github.com/21rahulsharma" target="_blank" class="btn">Visit Github</a>
+                </div>
+            </div>
+            <div class="rightsection"><img src="mygalaxypic.jpg" width</div>
+
+        </section>
+        <hr>
+        <section class="zeropointfive" id="Aboutsection">
+            <div class="Imagesection">
+                <img src="Galaxy3.jpg" >
+            </div>
+            <div class="About">
+                <h1 class="sub-title">About Me:</h1>
+                <br>
+                <p class="paragraph">
+                    Hey there! I am Rahul Kumar Sharma,a passionate individual driven by the transformative power of the internet, a coding enthusiast having a decent grasp over Data Structures, Algorithms & Web Technologies.<br>
+                    I am proficient in Python, C and C++. Moreover I have a decent knowledge about MySQL database<br>
+                    To Explore the tech world I have developed a lot of Real-life projects & would continue to built do it.My Vision is to built softwares capable of solve real-world problems and would change the course of life<br>
+                </p>
+                <br>
+                    <div class="tab-titles">
+                        <p class="tab-links activelink" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links"  onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links"  onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class="tab-contents activetab" id="skills">
+                        <ul>
+                            <li><span class="subject">Languages:</span><br>Python, C, C++, HTML, CSS, Java-Script<br></li>
+                            <li><span class="subject">Databases:</span><br>MySQL<br></li>
+                            <li><span class="subject">Coursework</span><br>Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks<br></li>
+                            <li><span class="subject">Developers Tool:</span><br>VS-Code,Git & Github<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span class="subject">2023:</span><br>Virtual Internship at Walmart Global Tech</li>
+                            <li><span class="subject">2020-2022:</span><br>Student Manager at InternO, E-CELL VSSUT</li>
+                            <li><span class="subject">2019-2023:</span><br>Core Member at E-Cell, VSSUT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id='education'>
+                        <ul>
+                            <li><span class="subject">2019-2023</span><br>B.Tech from Veer Surendra Sai University of Technology, Burla</li>
+                            <li><span class="subject">2017-2019</span><br>Intermediate from Kendriya Viyalaya, Bhubaneswar</li>
+                            <li><span class="subject">2016-2017</span><br>Matriculation from Loyola School, Bhubaneswar</li>
+                            
+                        </ul>
+                    
+                    </div>
+
+                    
+                    
+            
+        </section>
+        <section class="projects" id="services">
+            <div class="container">
+                <h1 class="sub-title">Services:</h1>
+                <div class="projectlist">
+                    <div class="projectlist1">
+                        <h2>Software Development</h2>
+                        <p>Creating, Designing, Testing and Maintaining different software applicaton.</p>
+                    </div>
+                    <div class="projectlist2">
+                        <h2>Web Development</h2>
+                        <p>Building Websites & applications for the internet</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="Portfolio" id="projectwork">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="worklist">
+                    <div class="work"><img src="Aivoiceassistant.avif">
+                    <div class="layer"><h3>A.I Assistant</h3><p>It is a Voice Controlled A.I personal Assistant implemented using Python & Chat GPT's 3.5-turbo module</p><a href="https://github.com/21rahulsharma/AI_Desktop_Assistant.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i><p class="Explore">Explore!</p></a></div></div>
+                
+                    <div class="work"><img src="snakewatergun.png"><div class="layer">
+                        <h2>Snake Water Gun Game</h2><p>It is one of the famous two-player game played by many people. It is a hand game in which the player randomly chooses any of the three forms i.e. snake, water, and gun implemented using Python</p><a href="https://github.com/21rahulsharma/Snake_Water_Gun_Game.git" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i><p class="Explore">Explore!</p></a></div></div>
+                </div>
+            </div>
+
+        </section>
+        <section class="hobbies">
+            <h1>Hobbies:</h1>
+            <br>
+           <div class="hobbies1">
+                <div>Cycling</div>
+                <div>Gymming</div>
+                <div>Trading</div>
+                <div>Playing Cricket</div>
+           </div>
+        </section>
+         <section id="contact">
+            <div class="container2">
+                <div class="row">
+                    <div class="contactleft">
+                        <h1 class="sub-title">Contact Me:-</h1>
+                        <p><i class="fa-regular fa-envelope" style="color: #ff004f;"></i>rahulsharma72447@gmail.com</p>
+                        <p><i class="fa-solid fa-phone" style="color: #ff004f;"></i>9348419950</p>
+                        <div class="socialicons">
+                            <a href="https://www.instagram.com/_rahulsharma21_/?igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                            <a href="https://www.linkedin.com/in/rahul-kumar-sharma-570a7b274/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                            <a href="https://api.whatsapp.com/qr/ZNC5GUKABPJ7M1?autoload=1&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="contactright">
+                        <h3>Request a Follow Back</h3>
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" placeholder="Your Message" id="" cols="20" rows="6"></textarea>
+                            <button class="submit">Submit</button>
+                        </form>
+                        <span id="msgs"></span>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Rahul's Developers Portfolio</h3>
+                <br>
+            </div>
+            <!-- <div class="onepointfive">
+
+            </div> -->
+            <div class="second">
+                <h3 class="footerhead">Quick Links</h3>
+                <ul>
+                    <li><a href="#Homeofwebsite"> Home</a></li>
+                    <li><a href="#Aboutsection"> About</a></li>
+                    <li><a href="#projectwork"> My Projects</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#contact"> Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="second" >
+                <h3 class="footerhead">Featured Projects</h3>
+                <ul>
+                    <li><a href="#projectwork"> A.I Assistant</a> </li>
+                    <li><a href="#projectwork"> Snake Water Gun Game</a> </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footerline">
+        <div class="footerrights">
+            www.rahulsportfolio.com | All rights reserved 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['<i>I am a Developer,</i> Programmer .', '&amp; an AI Enthusiast.'],
+        typeSpeed: 50,
+      });
+    </script>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    console.log(tablinks)
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    console.log(tabcontents)
+    function opentab(tabname)
+    {
+        for (tablink of tablinks)
+        {
+            tablink.classList.remove("activelink");// use the classList API to remove and add classes
+        }
+        for (tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("activetab");// use the classList API to remove and add classes
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activetab")
+    }
+    var sidemen=document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemen.style.right="0";
+    }
+    function closemenu()
+    {
+        sidemen.style.right="-250px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyAOWOhQCNllom0kolbabp25L_MowY4mnHkMAq5dSoVVaOhudwCVbLKAeQ0oGxSe9g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msgs=document.getElementById("msgs")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msgs.innerHTML="Request Sent Sucessfully"
+            setTimeout(function()
+            {
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
