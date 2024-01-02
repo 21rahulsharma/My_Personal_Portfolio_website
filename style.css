@@ -655,6 +655,7 @@ footer
     font-size:22px;
     height:auto;
 }
+}
 @media(max-width:600px)
 {
 .right .fa-solid
@@ -702,7 +703,7 @@ footer
 }
 .rightsection
 {
-    flex-basis:100%;
+    
     width:80vw;
     margin:auto;
 }
@@ -710,7 +711,7 @@ footer
 {
     display:block;
     margin: auto;
-    margin-top:5vh;
+    margin-top:4.5vh;
     
 }
 .buttons
@@ -729,14 +730,22 @@ footer
     margin-bottom:7px;
     padding:2px;
 }
+.zeropointfive
+{
+    flex-direction:column;
+}
 .Imagesection
 {
-    flex-basis:100%;
+    width:80vw;
+    margin:auto;
+    padding-bottom:2vh;
 }
-/* .Imagesection img
+.Imagesection img
 {
-    margin-bottom:30px;
-} */
+    display:block;
+    margin:auto;
+
+}
 .paragraph
 {
     font-size:10px;
